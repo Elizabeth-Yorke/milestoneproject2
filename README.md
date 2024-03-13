@@ -1,110 +1,217 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Maths Lines
 
-Welcome USER_NAME,
+Welcome to Maths Lines. This is an interactive maths game. Each icon hides a maths question. To win the game, you need to answer four questions in a straight line correctly. Click on a circle to reveal your first question.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+A live version of the site can be viewed from [here.](https://elizabeth-yorke.github.io/SusieJunes-A/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Here is a mock-up image of Maths Lines interactive game, using the "Am I Responsive" site.
 
-## Gitpod Reminders
+![screenshot](assets/documentation/am-i-responsive.png).
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### Wireframes
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+My wireframe was created using Balsamiq.
+Here are screenshots of the wireframes:
 
-A blue button should appear to click: _Make Public_,
+| Page | Phone Wireframe | Tablet Wireframe | Desktop Wireframe |
+| --- | --- | --- | --- |
+| Game | [phone](assets/documentation/wireframes/TBC) | [tablet](assets/documentation/wireframes/TBC) | [desktop](assets/documentation/wireframes/TBC) | 
+| Instructions | [phone](assets/documentation/wireframes/TBC) | [tablet](assets/documentation/wireframes/TBC) | [desktop](assets/documentation/wireframes/TBC) |
 
-Another blue button should appear to click: _Open Browser_.
+### Colour Scheme
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+I used the UX Design section of Adobe Color [https://color.adobe.com/trends/Ui/ux] to identify the most current user friendly colour palates available. I also looked at their game design section of Adobe Colour [https://color.adobe.com/trends/Game-design]. I noticed that there was an abundance of purple based themes in both sections, so I chose a purple based colour palate. I then checked this palate using WebAIM contrast checker [https://webaim.org/resources/contrastchecker/], and made the shades lighter and darker to ensure I had a colour scheme that included a number of high contrast pairings. The palate was created by Adobe Colour and contained the following colours:
 
-To log into the Heroku toolbelt CLI:
+#B6E7F5 - pale teal
+#54AFC7 - mid teal (not to be written on directly due to contrast issues)
+#084A5C - dark teal
+#1F0229 - dark purple
+#E8C4F5 - pale purple
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Fonts
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+I selected the fonts for this project from Google Fonts.
 
-------
+Having looked at a number of quiz type phone games, I decided that the title font should be a bit different, to catch the eye of the user. I chose the **Luckiest Guy** font.
 
-## Release History
+The font used for the numbers needs to be really clear to read, but still eyecatching. The numbers should look as interesting as possible, whilst maintaining clarity. I chose **Kaushan Script** for this purpose.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+On the other hand, the font used for the explanation needs to be very easy to read, or users won't bother to read it! I chose **Quicksand** for this purpose.
 
-**September 20 2023:** Update Python version to 3.9.17.
+Whilst looking through fonts, I discovered **Noto Color Emoji** font, which I decided to use for my game graphics. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## User Stories
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+User stories can be found below:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### New site users
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- I would like a game with simple instructions that are easy to follow.
+- I would like a game that is quick to play.
+- I would like instant feedback so I know if I'm getting things right or wrong.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Returning site users
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- I would like a game that feels like I'm using my brain a bit, but isn't too hard.
+- I would like a game in which I can see myself improving as I play more.
+- I would like there to be new questions every time I play.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Site Owner
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- I would like people to want to use this game.
+- I would like people to leave good reviews about this game.
+- I would like this game to respond smoothly.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Existing Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+**Navigation bar with links**
+A main navigation menu.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**A structured Layout**
+TBC
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Logo links to homepage**
+Every logo (title) that you see can be clicked on and will return you to the homepage.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**Social links**
+There are links to Facebook, Instagram, Twitter and  page in the footer of every page, to encourage people to share their love of the game.
 
-------
+**Timer**
+There is a timer to let the user alter the difficulty of the game by setting themself a time limit in which to complete the game.
 
-## FAQ about the uptime script
+**Scoreboard**
+The scoreboard records the fastest time in which you have completed the game.
 
-**Why have you added this script?**
+**Favicon**
+Just a little extra to make the website feel more professional.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+**Customised 404 page**
+To help customers feel valued even if something goes wrong on the website.
 
-**How will this affect me?**
+### Future Additions
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+**A Leader Board**
+A scoreboard recording the best ever scores by other people, so you can try to beat it.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+**Advanced game options**
+*A larger board*
+A larger board in which the user has to complete a longer line.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+*More Complex Questions*
+Users could chose to have questions that include negative numbers, larger numbers, decimal numbers, or even questions from different topics.
 
-**So….?**
+## Testing
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Please find details of testing on a separate page [TESTING.md](TESTING.md).
 
-**Can I opt out?**
+## Improvements Made After Initial Testing Phase
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+TBC
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Technologies Used
 
-**Anything more?**
+- [HTML](https://en.wikipedia.org/wiki/HTML) was used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) was used for the main site design and layout.
+- [JavaScript] (https://en.wikipedia.org/wiki/JavaScript) was used for the game interactivity.
+- [Git](https://git-scm.com) was used for version control.
+- [GitHub](https://github.com) was used for version control.
+- [GitHub Pages](https://pages.github.com) was used to host the deployed front-end site.
+- [Bootstrap](https://getbootstrap.com) was used as a framework for modern responsiveness and pre-built components.
+- [Google Fonts](https://fonts.google.com/) was used for the fonts.
+- [Font Awesome](https://fontawesome.com/) was used for the icons.
+- [Tiny.png](https://tinypng.com/) was used to compress images, and in some cases to convert images to .webp format.
+- [Gitpod](https://gitpod.io) was the IDE used to create this project.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Deployment
 
----
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](TBC), navigate to the Settings tab 
+- Select Pages from the list on the right.
+- Under the Build and Deployment title, click on the 'source' section drop-down menu
+- Select **Deploy from a branch**
+- Click on the first dropdown menu in the 'branch' section
+- Select **Main**
+- Click **Save**
+- Wait for confirmation that the site has been deployed.
 
-Happy coding!
+The live link can be found [here](TBC)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+### Cloning
+
+You can clone this repository into your preferred IDE in order to edit it at your leisure.
+To clone this repository, follow these steps:
+
+1. Go to the [GitHub repository](TBC) 
+2. Click on the green **Code** button above the files.
+3. Select your preferred type of clone (HTTPS, SSH or GitHub CLI).
+4. Click on the copy icon to copy the code.
+4. Open your chosen IDE.
+5. Select New Workspace.
+6. Paste the code you have copied (TBC) into the correct place.
+7. Press enter.
+8. Wait while the new workspace is created.
+
+### Forking
+
+You can fork this repository in order to create an extra version of it which will be saved into your GitHub account. Once you have done this, you can edit your version and the original version will remain unaffected.
+
+To fork this repository, follow these steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](TBC)
+2. Locate the "Fork" Button, in the line of grey buttons above the green **Code** button.
+3. Click this button.
+4. Return to your GitHub Home page. You should now have your own copy of this repository.
+
+### Local VS Deployment
+
+Initially there were some differences between local and live deployment, but since debugging as described in [TESTING.md](TESTING.md) there are now no obvious differences.
+
+## Credits
+
+### Websites Used to Generate Content
+
+Here is a list of websites I used to create this project:
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [JavaSript Walkthrough Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPJS_06_20+2020_T1/courseware/8f9b28d4b7664bb59ddf18b8e090671f/dade1e8c7bae4113990fb9d65e129d6f/) | Game function | I used this website because it showcased a lot of the javaScript I wanted to use in my project. |
+| [Susie June's Cafe Website](https://elizabeth-yorke.github.io/SusieJunes-A/) | HTML, CSS, README | I used this website and its GitHub repository to remind myself of everything I learned in the first part of the course. |
+| [mdn web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) | Reservation Pages | I used this website because it was recommmended to do so at numerous points during the course. |
+| [Stack Overflow](https://stackoverflow.com/questions/) | Anything not strictly in the Code Institute lessons | I looked up questions and answers on Stack Overflow every time I just wanted to see if my ideas were feasible in html and css, before I got carried away researching how to do impossible things. |
+| [Favicon.cc](https://www.favicon.cc/) | The Favicon | I used this website to generate my favicon |
+| [Dev](https://dev.to/sh20raj/creating-custom-404-pages-on-github-pages-17nb)| The 404 Page | I used this a guidence when creating my 404 page. |
+| [Adobe Color](https://color.adobe.com/create/image)| The brand colors | I used this website to research and create a colour palate .|
+| [Fontawesome](https://fontawesome.com/) | The icons | I only really used this forthe social media icons. |
+| [Google Fonts](https://fonts.google.com/) | The Fonts | I used this for the fonts. |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/components/navbar/) | Navbar | I bootstrapped a navbar, then personalised it. |
+
+### Images
+
+TBC
+
+| Image Description | Link | Location on Website |
+| --- | --- | --- |
+| --- | --- | --- |
+
+### Other Content
+
+TBC 
+
+## Acknowledgements
+
+- I would like to thank my Code Institute mentor, Sheryl Goldberg for her support.
+- I would like to thank Jessica Ickechukwu, my tutor.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the their support.
+- I would like to thank my husband Kieron Yorke, for all his help.
+- I would like to thank Delyth Jennings, who has been particularly helpful on Slack.
