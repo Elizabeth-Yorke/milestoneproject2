@@ -127,6 +127,7 @@ TBC
 - [Font Awesome](https://fontawesome.com/) was used for the icons.
 - [Tiny.png](https://tinypng.com/) was used to compress images, and in some cases to convert images to .webp format.
 - [Gitpod](https://gitpod.io) was the IDE used to create this project.
+- [Template](https://github.com/Code-Institute-Org/gitpod-full-template) This project was created using this GitHub template provided by Code Institute.
 
 ## Deployment
 
