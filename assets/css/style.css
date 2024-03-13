@@ -57,23 +57,65 @@ h1, h2, h3, h4 {
     color: #084A5C;
 }
 
-color-scheme-e {
+.color-scheme-e {
     background-color: #54AFC7;
 }
 
 /* -- Navbar -- */
 
 .navbar {
-    background-color: #1F0229 !important;
+    background-color:#B6E7F5 !important;
     font-family: 'Luckiest Guy', cursive !important;
-    color: #E8C4F5 !important;
+    color: #084A5C !important;
 }
 
 .navbar-brand {
-    color: #E8C4F5 !important;
-    font-size: 3rem;
+    color:#084A5C;
+    font-size: 2rem;
+    padding-left: 20px;
 }
 
-.nav-item {
-    color: #E8C4F5 !important;
+#page1 {
+    color:#084A5C;
+}
+
+#page2 {
+    color:#084A5C;
+}
+
+/* -- Game -- */
+
+#game-div {
+    align-items: center;
+}
+
+.question {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+/* -- Footer -- */
+
+.footer-top {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+.review2 {
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+.social-links {
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.footer-links{
+    padding-left: 20px;
+    padding-right: 20px;
 }
