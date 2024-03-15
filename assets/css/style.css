@@ -86,13 +86,22 @@ h1, h2, h3, h4 {
 /* -- Game -- */
 
 #game-div {
-    align-items: center;
+    
+}
+
+#centered-div{
+    
 }
 
 .question {
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    text-align: center;
+    height: 10%;
+    width: 10%;
+}
+
+.icon {
+
 }
 
 /* -- Footer -- */
